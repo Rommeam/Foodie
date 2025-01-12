@@ -1305,10 +1305,14 @@ text-decoration: underline;
   font-size: 1.5rem;
   padding: 10px;
   transition: var(--transition-1);
+border-radius: 50%;
+margin: 3px;
 }
 
-.social-link:is(:hover, :focus) {
+.social-link:is(:hover, :focus) { 
   background-color: var(--rich-black-fogra-29);
+border: 3px solid green;
+box-shadow: 12px 12px 2px 1px rgba(4, 241, 63, 0.2);
 }
 
 .footer-list-title {
